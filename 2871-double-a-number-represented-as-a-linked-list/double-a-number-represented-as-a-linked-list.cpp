@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* doubleIt(ListNode* head) {
+    ListNode* doubleIt(ListNode* &head) {
         stack<int> values;
         int val = 0;
         while (head != nullptr) {
